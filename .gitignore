@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- Environment / secrets ---
+.env
+*.env.local
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Distribution / build ---
+build/
+dist/
+*.egg-info/
+
+# --- Test / cache ---
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Uploaded sample files (if any get committed by mistake) ---
+*.pdf
+!sample_resumes/*.pdf

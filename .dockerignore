@@ -1,0 +1,42 @@
+# --- Git / CI ---
+.git/
+.github/
+.gitignore
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Streamlit local config ---
+.streamlit/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Docs / misc (not needed inside image) ---
+README.md
+docker-compose.yml
+*.log
+
+# --- Test / cache ---
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Sample/test data ---
+*.pdf

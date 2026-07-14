@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  resume-screening-app:
+    build: .
+    image: imageName
+    container_name: resume-screening-app
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
