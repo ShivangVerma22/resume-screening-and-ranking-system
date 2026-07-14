@@ -42,4 +42,4 @@ Go to your repo → **Settings → Secrets and variables → Actions** and add:
 | `DOCKERHUB_TOKEN` | A Docker Hub access token (not your password) — generate one at hub.docker.com → Account Settings → Security |
 
 Once these are set, every push to `main` will automatically build and publish
-your Docker image to Docker Hub.
+Your Docker image to Docker Hub.
